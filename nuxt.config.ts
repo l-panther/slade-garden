@@ -49,11 +49,11 @@ export default defineNuxtConfig({
         {
           rel: 'icon',
           type: 'image/png',
-          href: '/Slade-garden/logo.png'
+          href: '/slade-garden/logo.png'
         },
         {
           rel: 'apple-touch-icon',
-          href: '/Slade-garden/apple-touch-icon.png'
+          href: '/slade-garden/apple-touch-icon.png'
         }
       ]
     }
