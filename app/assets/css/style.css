@@ -443,7 +443,7 @@ footer strong{color:#e5eaf0;}
     position:fixed;top:0;right:0;height:100vh;width:min(78vw,320px);
     background:#fff;z-index:250;display:block;
     transform:translateX(100%);transition:transform .35s cubic-bezier(.21,.6,.35,1);
-    box-shadow:-10px 0 30px rgba(18,67,44,.18);padding:90px 32px 32px;
+    box-shadow:-10px 0 30px rgba(18,67,44,.18);padding:20px 10px 32px;
   }
   nav.open{transform:translateX(0);}
   nav ul{flex-direction:column;align-items:flex-start;gap:20px;font-size:1.05rem;}
