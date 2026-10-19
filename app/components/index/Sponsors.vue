@@ -12,11 +12,11 @@ import { mainSponsors } from '~/data/sponsors'
         <h2 class="reveal">The People Who Help Us</h2>
       </div>
 
-      <div class="row g-3 align-items-center logo-grid">
+      <div class="row g-3 align-items-center logo-grid d-none-sm">
         <div
           v-for="sponsor in mainSponsors"
           :key="sponsor.name"
-          class="col-6 col-md-4 col-lg-2 text-center sponsor main"
+          class="col-4 col-md-4 col-lg-3 text-center sponsor main"
         >
           <img
             :src="sponsor.image"
