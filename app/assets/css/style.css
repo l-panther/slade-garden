@@ -97,7 +97,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 .btn-navy-outline:hover{background:var(--green-deep);color:#fff;}
 .btn-row{display:flex;gap:14px;flex-wrap:wrap;}
 .btn-block{width:100%;text-align:center;}
-
+#nav-donate-btn { display: none;} 
 #involved .btn {
   display: block;
   width: 100%;
@@ -448,6 +448,7 @@ footer strong{color:#e5eaf0;}
   nav.open{transform:translateX(0);}
   nav ul{flex-direction:column;align-items:flex-start;gap:20px;font-size:1.05rem;}
   nav .nav-cta{margin-top:6px;}
+  #nav-donate-btn {display:block;}
 }
 @media(max-width:640px){
   section{padding:60px 0;}
