@@ -28,9 +28,9 @@ import { mainSponsors } from '~/data/sponsors'
 
       <p class="sponsors-description">
         See our
-        <a href="/about#full-sponsors" class="text-orange">
+        <NuxtLink to="/about#full-sponsors" class="text-orange">
           full list of sponsors
-        </a>,
+        </NuxtLink>,
         friends, and contributors.
         Find out how you can add your logo to this list
         of generous organisations by
