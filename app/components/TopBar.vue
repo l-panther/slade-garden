@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="topbar reveal">
-      <div class="site-container">
+      <div class="site-container d-none d-md-block">
         <span>We are a registered charity and rely on <strong>volunteers and donations</strong>.</span>
         <NuxtLink to="/get-involved" class="btn btn-orange">Donate Today</NuxtLink>
       </div>
