@@ -14,7 +14,7 @@ import { mainSponsors, extraSponsors } from '~/data/sponsors'
         <div
         v-for="sponsor in mainSponsors"
         :key="sponsor.name"
-        class="col-12 col-sm-2 text-center sponsor main"
+        class="col-4 col-lg-2 text-center sponsor main"
       >
         <img
           :src="sponsor.image"
@@ -25,7 +25,7 @@ import { mainSponsors, extraSponsors } from '~/data/sponsors'
       <div
         v-for="sponsor in extraSponsors"
         :key="sponsor.name"
-        class="col-6 col-md-4 text-center sponsor main p-3"
+        class="col-4 col-lg-2 text-center sponsor main p-3"
       >
         <img
           :src="sponsor.image"
