@@ -456,3 +456,148 @@ footer strong{color:#e5eaf0;}
   .gallery-grid .g-main{grid-row:auto;}
   .list-columns ul{columns:1;}
 }
+
+
+/* -----------------------------------------
+   MOBILE SPACING IMPROVEMENTS
+----------------------------------------- */
+@media screen and (max-width: 640px) {
+
+  /* Main sections */
+  section {
+    padding: 40px 0;
+  }
+
+  /* Page container */
+  .site-container {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
+  /* Section headings */
+  .section-head {
+    margin-bottom: 24px;
+  }
+
+  .section-head h2 {
+    font-size: 1.65rem;
+    line-height: 1.2;
+    margin-bottom: 10px;
+  }
+
+  .section-head p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+
+  /* Eyebrow labels */
+  .eyebrow {
+    margin-bottom: 6px;
+  }
+
+  /* Paragraphs */
+  .split p {
+    margin-bottom: 12px;
+    line-height: 1.6;
+  }
+
+  /* Images */
+  .split-media {
+    margin-top: 24px;
+  }
+
+  /* Hero */
+  .hero-inner {
+    padding: 40px 18px 35px;
+  }
+
+  .hero h1 {
+    font-size: 1.85rem;
+    margin-bottom: 10px;
+  }
+
+  .hero p {
+    font-size: 0.9rem;
+    margin-bottom: 18px;
+  }
+
+  .hero-chips {
+    gap: 8px;
+    margin-top: 18px;
+  }
+
+  /* Feature cards */
+  .feature-card {
+    padding: 20px 18px;
+  }
+
+  .feature-icon {
+    margin-bottom: 12px;
+  }
+
+  .feature-card h4 {
+    margin-bottom: 6px;
+  }
+
+  /* Event cards */
+  .event-card {
+    box-shadow: 0 8px 20px rgba(18,67,44,.12);
+  }
+
+  .event-card .body {
+    padding: 16px 18px 20px;
+  }
+
+  .event-card h4 {
+    margin-bottom: 6px;
+  }
+
+  .event-card p {
+    font-size: 0.875rem;
+    line-height: 1.55;
+  }
+
+  /* Buttons */
+  .btn {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+
+  .btn-row {
+    gap: 10px;
+  }
+
+  /* Testimonials */
+  .testimonial-card {
+    padding: 22px 20px;
+  }
+
+  .testimonial-card p {
+    margin-bottom: 14px;
+  }
+
+  /* Partners and sponsors */
+  .logo-chip {
+    height: 65px;
+    padding: 10px;
+  }
+
+  /* Footer */
+  .footer-top {
+    padding: 40px 0 25px;
+  }
+
+  footer h4 {
+    margin-bottom: 10px;
+  }
+
+  footer p,
+  .foot-check li {
+    margin-bottom: 8px;
+  }
+
+  .footer-bottom {
+    padding: 16px 0;
+  }
+}
+
