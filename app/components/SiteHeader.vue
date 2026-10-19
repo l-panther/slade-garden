@@ -32,7 +32,7 @@ onUnmounted(() => {
           <li><NuxtLink to="/about" :class="{ active: route.path === '/about' }" @click="closeNav">About</NuxtLink></li>
           <li><NuxtLink to="/get-involved" :class="{ active: route.path === '/get-involved' }" @click="closeNav">Get Involved</NuxtLink></li>
           <li><NuxtLink to="/venue-hire" :class="{ active: route.path === '/venue-hire' }" @click="closeNav">Venue Hire</NuxtLink></li>
-          <li><NuxtLink to="/venue-hire" :class="{ active: route.path === '/contact' }" @click="closeNav">Contact Us</NuxtLink></li>
+          <li><NuxtLink to="/contact" :class="{ active: route.path === '/contact' }" @click="closeNav">Contact Us</NuxtLink></li>
           <li class="d-lg-none">
             <NuxtLink to="/contact" class="nav-cta" :class="{ active: route.path === '/contact' }" @click="closeNav">Donate Today</NuxtLink>
           </li>
